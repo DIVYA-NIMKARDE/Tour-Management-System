@@ -1,0 +1,170 @@
+<html>
+    <head>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+     
+    <style>
+        body{
+            background-image: url("images/bg6.jpg");
+            background-repeat: repeat;
+            background-size: cover;
+            height: 100%;
+        }
+        caption{
+            font-family: italic;
+            color: white;
+            font-size: 20px;
+            text-align: center;
+        }
+        .button {
+  font: bold 20px Arial;
+  text-decoration: none;
+  background-color: rgb(30, 26, 245);
+  color: white;
+  padding: 10px;
+  border: none;
+}
+           
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-dark navbar-expand-lg" style="background-color:rgb(3, 27, 29) ;">
+        <div class="container-fluid" >
+            <a href="home.html" class="navbar-brand" style="font-size: 40px; font-family: 'Courier New', Courier, monospace;">Wanderlust</a>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                    <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="aboutus.html" class="nav-link" style="font-size: 20px;">About us</a>
+                    </li>
+                    <li class="nav-item dropdown" >
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" style="font-size: 20px;">Tours</a>
+                        <ul class="dropdown-menu dropdown-menu-dark"  style="background-color:rgb(3, 27, 29);font-size:17px;font-family: 'Courier New', Courier, monospace;font-weight: bolder;">
+                                <li><a href="popular.html" class="dropdown-item">Our Popular Tours</a></li>
+                                <li><a href="summer.html" class="dropdown-item">Summer special</a></li>
+                                <li><a href="winter.html" class="dropdown-item">Winter packages</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a href="gallery.html" class="nav-link" style="font-size: 20px;">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="login.php" class="nav-link" style="font-size: 20px;">Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="feedback.html" class="nav-link" style="font-size: 20px;">Feedback</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contactus.html" class="nav-link" style="font-size: 20px;">Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="logout.php" class="nav-link" style="font-size: 20px;">Logout</a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+        
+    </nav> 
+    
+<div class="container-fluid" id="popular-destinations">
+    <h2 class="text-center heading" style="font-size: 50px;color: white; text-align: center;font-family: 'Courier New', Courier, monospace; font-weight: bolder;"><i class="fas fa-globe-asia"></i>
+    Our Popular Tours</h2>
+    <div class="row">
+        <div class="col-sm-4">
+            <div class="card text-center m-2">
+                <div class="card-header">
+                    <h3 class="card-title">Leh Ladakh</h3>
+                </div>
+                <div class="card-body">
+                    
+                    
+                    <img src="images/leh.jpg" alt="" class="card-img-top">
+                    <p class="card-text" style="font-size: 20px;">Revive your thrilling adventures with this most enthralling Leh-Ladakh tour!</p>
+                    <h3 class="card-title text-danger">Tour Price: Rs.30,000/-</h3>
+                    <button class="btn btn-primary" type="submit">Know more</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="card text-center m-2">
+                <div class="card-header">
+                    <h3 class="card-title">Kerala</h3>
+                </div>
+                <div class="card-body">
+                    <img src="images/kerala.jpg" alt="" class="card-img-top">
+                    <p class="card-text" style="font-size: 20px;">A perfect place for nature lovers!</p>
+                    <h3 class="card-title text-danger">Tour Price: Rs.25,000/-</h3>
+                    <a href="kerala.html" class="button">Know more</a>
+
+                </div>
+            </div>
+        </div>
+
+
+        <div class="col-sm-4">
+            <div class="card text-center m-2">
+                <div class="card-header">
+                    <h3 class="card-title">Hampi</h3>
+                </div>
+                <div class="card-body">
+                    <img src="images/hampi.jpg" alt="" class="card-img-top">
+                    <p class="card-text" style="font-size: 20px;">Revisit the ancient spendid architectures of Hampi!</p>
+                    <h3 class="card-title text-danger">Tour Price: Rs.27,000/-</h3>
+                    <button class="btn btn-primary" type="submit">Know more</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-4">
+            <div class="card text-center m-2">
+                <div class="card-header">
+                    <h3 class="card-title">Goa</h3>
+                </div>
+                <div class="card-body">
+                    <img src="images/goa.jpg" alt="" class="card-img-top">
+                    <p class="card-text" style="font-size: 20px;">Chill your summer vibes with the cool beaches of Goa!</p>
+                    <h3 class="card-title text-danger">Tour Price: Rs.40,000/-</h3>
+                    <button class="btn btn-primary" type="submit">Know more</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-4">
+            <div class="card text-center m-2">
+                <div class="card-header">
+                    <h3 class="card-title">Agra</h3>
+                </div>
+                <div class="card-body">
+                    <img src="images/agra.jpg" alt="" class="card-img-top">
+                    <p class="card-text p-2" style="font-size: 20px;">Enjoy your vacation at the exotic city of agra</p>
+                    <h3 class="card-title text-danger">Tour Price: Rs.30,000/-</h3>
+                    <button class="btn btn-primary" type="submit">Know more</button>
+                </div>
+            </div>
+        </div>
+
+        
+        <div class="col-sm-4">
+            <div class="card text-center m-2">
+                <div class="card-header">
+                    <h3 class="card-title">Rann of Kuchh</h3>
+                </div>
+                <div class="card-body">
+                    <img src="images/kuchh.jpg" alt="" class="card-img-top">
+                    <p class="card-text" style="font-size: 20px;">Spend some quality time in this breathtaking desert!</p>
+                    <h3 class="card-title text-danger">Tour Price: Rs.27,000/-</h3>
+                    <button class="btn btn-primary" type="submit">Know more</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    
+</body>
+</html>

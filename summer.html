@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Summer special </title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+   
+    <style>
+         body{
+            background-image: url("images/bg6.jpg");
+            background-repeat: repeat;
+            background-size: cover;
+            height: 100%;
+        }
+        .button {
+  font: bold 20px Arial;
+  text-decoration: none;
+  background-color: rgb(30, 26, 245);
+  color: white;
+  padding: 10px;
+  border: none;
+}
+    </style>
+</head>
+<body>
+    
+
+
+
+    <nav class="navbar navbar-dark navbar-expand-lg" style="background-color:rgb(3, 27, 29) ;">
+        <div class="container-fluid" >
+            <a href="home.html" class="navbar-brand" style="font-size: 40px; font-family: 'Courier New', Courier, monospace;">Wanderlust</a>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                    <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="aboutus.html" class="nav-link" style="font-size: 20px;">About us</a>
+                    </li>
+                    <li class="nav-item dropdown" >
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" style="font-size: 20px;">Tours</a>
+                        <ul class="dropdown-menu dropdown-menu-dark"  style="background-color:rgb(3, 27, 29);font-size:17px;font-family: 'Courier New', Courier, monospace;font-weight: bolder;">
+                                <li><a href="#popular-destinations" class="dropdown-item">Our Popular Tours</a></li>
+                                <li><a href="summer.html" class="dropdown-item">Summer special</a></li>
+                                <li><a href="winter.html" class="dropdown-item">Winter packages</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a href="gallery.html" class="nav-link" style="font-size: 20px;">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="login.php" class="nav-link" style="font-size: 20px;">Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="feedback.html" class="nav-link" style="font-size: 20px;">Feedback</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contactus.html" class="nav-link" style="font-size: 20px;">Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="logout.php" class="nav-link" style="font-size: 20px;">Logout</a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+        
+    </nav>
+    <div class="heading p-5">
+        <h1 class="text-center"style="font-size: 50px;color:white;font-weight: bolder; font-family: 'Courier New', Courier, monospace;"><i class="fas fa-plane-departure"></i>
+            Wanderlust</h1>
+        
+        <br>
+        <h4 class="caption" style="color: white; text-align:center;"><i>    Let your exploration begin...</i></h4>
+    </div>   
+    <br><br><br>
+    
+    <div class="container-fluid">
+        <img src="images/summersp.jpg" alt="" width="100%" height="400px">
+    </div>
+
+    <br><br><br>
+    <div class="container-fluid" id="summer-special">
+        <h2 class="text-center heading"  style="font-size: 40px;color: white; text-align: center;font-family: 'Courier New', Courier, monospace; font-weight: bolder;"><i class="fas fa-umbrella-beach"></i>
+        Summer Special Tours</h2>
+        
+        <div class="row">
+        <div class="col-sm-4">
+            <div class="card text-center m-2">
+                <div class="card-header">
+                    <h3 class="card-title">Goa</h3>
+                </div>
+                <div class="card-body">
+                    <img src="images/goa.jpg" alt="" class="card-img-top">
+                    <p class="card-text" style="font-size: 20px;">Chill your summer vibes with the cool beaches of Goa!</p>
+                    <h3 class="card-title text-danger">Tour Price: Rs.40,000/-</h3>
+                    <a href="goa.html" class="button">Know more</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-4">
+            <div class="card text-center m-2">
+                <div class="card-header">
+                    <h3 class="card-title">Shimla</h3>
+                </div>
+                <div class="card-body">
+                    <img src="images/shimla2.jpg" alt="" class="card-img-top">
+                    <p class="card-text" style="font-size: 20px;">Enjoy this cool summer special Shimla tour</p>
+                    <h3 class="card-title text-danger">Tour Price: Rs.45,000/-</h3>
+                    <button class="btn btn-primary" type="submit">Know more</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-4">
+            <div class="card text-center m-2">
+                <div class="card-header">
+                    <h3 class="card-title">Manali</h3>
+                </div>
+                <div class="card-body">
+                    <img src="images/manali2.jpg" alt="" class="card-img-top">
+                    <p class="card-text" style="font-size: 20px;">Enjoy your summer vacation at Manali!</p>
+                    <h3 class="card-title text-danger">Tour Price: Rs.40,000/-</h3>
+                    <button class="btn btn-primary" type="submit">Know more</button>
+                </div>
+            </div>
+        </div>
+
+        
+    </div>
+    </div>
+
+    
+</body>
+</html>
